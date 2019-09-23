@@ -120,7 +120,7 @@ end
   
   
   def over?
-    won? || full?
+    won? || draw?
   end 
   
   
@@ -140,7 +140,7 @@ end
 if won?
   puts "Congratulations #{winner}!"
 elsif draw?
-  puts "Cat’s Game!"
+  puts "Cat's Game!"
 end
 end
 
